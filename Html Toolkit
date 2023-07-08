@@ -1,0 +1,268 @@
+HTML Toolkit:
+
+1.What are the new features in HTML5?
+
+Html5 introduced several new features including:
+Semantic elements like <header>, <footer>, <nav>, <section>, etc., which provide a better structure to the content.
+The <canvas> element for drawing graphics and animations.
+New form input types like date, time, email, url, etc.
+Support for multimedia elements, such as <audio> and <video>.
+
+2.What is the difference between HTML and HTML5?
+
+ HTML5 is the fifth version ot HTML, and it introduced  several new features and improvements over previous versions. Some key differences between HTML and HTML5 include:
+ i.New semantic elements in HTML5 improve the structure and readability of the code.
+ii.HTML5 introduced native support  for multimedia elements like audio and  video,reducing the reliance on plugins like Flash.
+      
+  3. What is semantic HTML?
+Semantic HTML refers to the practice of using HTML elements that carry meaningful and descriptive tags to convey the structure and purpose of the content on a web page. It involves using HTML elements that accurately represent the meaning of the content they enclose, rather than relying solely on presentational elements or generic container elements like <div> or <span>.
+Semantic HTML helps improve the accessibility, maintainability, and search engine optimization (SEO) of a website. 
+examples of semantic HTML elements: <header>, <nav>, <aside>, <article>, <footer>.
+  4. Explain the layout of HTML?
+Following are different HTML5 elements which are used to define the different parts of a webpage.
+     i.<header>: It is used to define a header for a document or a section 
+     ii. <nav>: It is used to define a container for navigation links
+     iii. <section>: It is used to define a section in a document
+     iv. <article>: It is used to define an independent, self-contained article
+     v. <aside>: It is used to define content aside from the content (like a sidebar)
+    vi. <footer>: It is used to define a footer for a document or a section
+
+5. Does a <!DOCTYPE html> tag is a HTML tag?
+ 
+No, the <!DOCTYPE html> declaration is not an HTML tag. There are many type of HTML e.g. HTML 4.01 Strict, HTML 4.01 Transitional, HTML 4.01 Frameset, XHTML 1.0 Strict, XHTML 1.0 Transitional, XHTML 1.0 Frameset, XHTML 1.1 etc. So, <!DOCTYPE html> is used to instruct the web browser about the HTML page.
+
+6. What is the use of the required attribute in HTML5?
+
+The required attribute in HTML5 is used to indicate that an input field must be filled out before submitting a form
+
+ 7. What is an Anchor tag in HTML?
+An anchor tag is used to link two sections, web pages, or website templates in HTML.
+The anchor tags are web page elements that are used to link to another location on the same page.  These are also used to hyperlinks to other webpages, emails, applications and items.
+Its format is:
+  <a href=”#” target=”link”></a>
+
+8. Why is the Embed Tag Used in HTML?
+An Embed Tag is used for including a Video or Audio in an HTML Document. A source of audio or video file to be displayed on the webpage is defined within an Embed tag as:
+<EMBED> Source </EMBED>.
+
+9. What is a ‘Marquee’ Tag in HTML?
+You can put scrolling text with a Marquee tag. With the help of this tag, an image or text can be scrolled up, down, left, or right.
+The text which is scrolled is defined within the <marquee>……</marquee> tag.
+
+10. Describe the defference between block-level elements and inline elements in HTML?
+
+Block-level elements start on a new line and occupy the full width available. 
+Examples include <p>, <div>, <h1> to <h6>, and <ul>.
+Inline elements, on the other hand, do not start on a new line and only take up as much width as their content requires. 
+Examples include <span>, <a>, <strong>, <em>, and <img>.
+
+11.What is the <meta> tag uesd for in HTML?
+The <meta> tag defines metadata about an HTML document. Metadata is data  about data.<meta> tags always go inside the <head> element, and are typically used to  specify character set, page description, keywords, author of the document, and viewport settings
+
+12. What is the difference between <div> and <span> elements in HTML?
+
+i.div→ It creates a block-level box and is commonly used for grouping and structuring larger sections of content.
+ii.span→It is an inline element used for applying styles or grouping smaller portions of content within a block-level element.
+
+13. What is the key difference between HTML Elements and Tags?
+
+i.Html Elements→The sections of the web page, such as a paragraph, an image, or a link is an element, and an element has a certain way of execution.
+For example, the link is used to be clicked, and the text boxes can be used to input text
+
+ii.Html Tags→HTML elements communicate with the browser how to represent the text and become HTML tags when enclosed within angular brackets <>.
+
+HTML with the following tags:
+i.<p> tag–Use this tag for writing a paragraph of any text.
+ii.<br> tag – Use this for separating a line of text. This will break a current line and also shift the flow of a text over to new line.
+iii.<blockquote> tag–Use this tag to define any large quoted section.
+
+
+
+
+14. What is the Use of Comments in HTML?
+Comments are used in an HTML document to make important notes and help developers mention any modification to be incorporated afterward. They are not displayed in the browser when the code is executed. A comment is always written in between the ‘—‘ symbol at the beginning and end of the angular brackets.
+Syntax:
+<!—‘Comment’ !–>
+
+
+
+
+15. What is a ‘Marquee’ Tag in HTML?
+You can put scrolling text with a Marquee tag. With the help of this tag, an image or text can be scrolled up, down, left, or right.
+The text which is scrolled is defined within the <marquee>……</marquee> tag
+
+
+16.What is the purpose of the “alt” attribute in <img> tag?
+
+The alt attribute provides alternative information for an image if a user for some reason cannot  view it. Because of slow connection, an error in the src attribute, or the user uses a screen reader.
+
+17.How do you like css stylesheets to an HTML document?
+To link a CSS stylesheet to an HTML document, you use the <link> element within the <head> section of the HTML file.
+ Here's an example:
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>:
+
+
+18.What is the purpose of the “id” and “class” attributes inHTML?
+ 
+19.What are Attributes in HTML?
+An additional attribute is given to each tag to alter the behavior of the tag. Attributes are defined directly after the tag name, inside the angular brackets. They appear in opening tags and can never appear in closing tags.
+For example: You can define an attribute for the <input> tag, such as a text field, checkbox, radio button, or many more ways.
+
+20. What is HTML?
+HTML is the abbreviation for  Hypertext Markup Language. It is the typical  document’s markup language for  developing web pages to display on the web browser.
+ The extensions used to save HTML pages are .html and .htm
+
+21.What are Lists in HTML?
+
+HTML lists are used to group a set of related items in lists. It is defined with an <li> tag.
+→Ordered List (HTML tag: <ol>)
+→Unordered List (HTML tag: <ul>)
+→Description List (HTML tag: <dl>)
+→Menu List (HTML tag: <menu>)
+→Directory List (HTML tag: <dir>)
+
+
+
+
+22.What are Forms in HTML?
+
+Forms are used to collect the user information when they are filled, and details are provided to save into the database.
+ Forms are used for various purposes such as submitting information, performing searches, or collecting user feedback. They typically contain input elements like text fields, checkboxes, radio buttons, dropdown menus, and buttons.
+The HTML <form> tag is used to create a form. Within the <form> tag, you can include different types of input elements using various HTML tags like <input>, <textarea>, and <select>. 
+
+
+
+CSS Toolkit: 
+
+
+1.What is CSS?
+CSS stands for Cascading Style Sheets. It is a stylesheet language used to describe the presentation and styling of a  document written in HTML or XML. CSS allows web developers to control the layout, design, colors, fonts, and other visual aspects of a web page.making it more user-friendly
+
+2.What are the different ways to include CSS styles in a web page?
+
+There are three main ways to include CSS styles in a web page:
+i.Inline CSS:You can apply styles directly to HTML elements using the style attribute.
+ii.Internal CSS:You can define styles within the <style> tags in the head section of an HTML document.
+iii.External CSS:ou can create a separate CSS file with a .css extension and link it to your HTML document using the <link> tag.
+
+3.What is the box model in CSS?
+The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. 
+
+I. Content: It represents the actual content (text, images, etc.) inside the element.
+Ii. Padding: It creates space between the content and the border.
+Iii. Border: It surrounds the padding and content.
+Iv. Margin: It creates space around the element, outside the border.
+
+4.What are CSS selectors? Provide examples.
+
+CSS selectors are used to target specific HTML elements amd apply to them.Here are some examples of CSS selectors:
+I. Element Selector: Targets all instances of a specific HTML element. 
+For example:
+p {
+  color: blue;
+}
+Ii. Class Selector: Targets elements with a specific class attribute.
+ For example:
+.highlight {
+  background-color: yellow;
+}
+Iii. ID Selector: Targets an element with a specific id attribute.
+For example:
+#logo {
+  width: 200px;
+}
+Iv. Descendant Selector: Targets elements that are descendants of a specific element.
+For example:
+div p {
+  font-size: 16px;
+}
+
+
+5.Explain the difference between classes and IDs in CSS.
+→ID: IDs are unique. Each ID can be assigned to only one single element. IDs are used for a specific styling of an element. 
+
+
+→Class: Classes are not unique. Multiple elements can have the same class. A class is a collective way of styling multiple elements together. Multiple classes can be added to a single element to achieve the desired style. 
+
+6.How do you center align a block-level element horizontally and vertically?
+I. Set the left and right margins to auto.
+Ii. Set the top and bottom margins to auto.
+Iii. Specify a width and height for the element.
+For example, if you have a <div> element with a specific width and height, you can center it using the following CSS:
+div {
+  width: 400px;
+  height: 300px;
+  margin: auto;
+}
+
+
+7.What is the purpose of media queries in CSS?
+Media queries in CSS are used to apply different styles based on the characteristics of the device or viewport. They allow web developers to create responsive designs that adapt to different screen sizes and devices. By using media queries, you can define different CSS rules for different conditions, such as screen width, device orientation, and resolution. This helps ensure that your website looks and functions well on various devices, including desktops, laptops, tablets, and mobile phones.
+Breakpoints
+X-Small                  <576px
+Small                       ≥576px
+Medium                   ≥ 768px
+Large                       ≥992px
+Extra large              ≥1200px
+Extra extra large     ≥1400px
+   
+8.What are pseudo-classes in CSS? Give examples.
+
+pseudo-class is a keyword added to a selector that specifies a special state of the selected element. 
+
+Examples include:
+→ :hover: Styles an element when the mouse cursor hovers over it.
+→ :active: Styles an element while it is being clicked.
+→ :first-child: Selects the first child element of its parent.
+→ :nth-child(n): Selects the nth child element of its parent.
+
+9.Explain the difference between margin and padding in CSS.
+
+→Margin: Margin controls the space outside an element's border. It creates space between the element and neighboring elements. Adding margin to an element will push other elements away from it. Margins do not have a background color and are transparent by default.
+
+→Padding: Padding controls the space between an element's content and its border. It determines the distance between the element's content and its border edges. Adding padding to an element increases the space within the element itself. Padding inherits the background color of the element.
+
+10.How can you make a responsive website using CSS?
+
+Responsive design involves creating web pages that adapt and  respond to different devices and screen size.
+
+Some Techniques:
+i.Media Queries: using CSS media queries to apply different styles based on the devices screen size.
+ii.Fluid Layouts: Designing layouts using relative units like percentage instead of fixed  pixels.
+iii.Flexbox and CSS Grid: Utilizing flexible layout models to create responsive designs
+iv.Mobile-first approach: Designing for mobile devices first and then progressively enhancing for longer screens.
+
+
+11.Difference between CSS grid vs flexbox?
+
+i.SS Grid Layout is a two-dimensional system along with rows and columns. It is used for large-sized layouts.
+ii.Flexbox is a Grid layout with a one-dimensional system either within a row or a column. It is used for the components of an application.
+
+12.What does !important mean in CSS?
+
+The style “!important” in the CSS has the highest precedence. Also, the cascaded property will be overridden with it.
+
+13.Explain CSS specificity.
+CSS specificity is a rank or score that decides style declaration to be used to an element. ID selectors have high specificity, while universal selector * has low specificity. The four CSS categories that authorize the selector's specificity level are IDs, inline style, elements/pseudo-elements, and classes and attributes.
+
+14 .Explain the difference between visibility: hidden and display: none?
+
+i.visibility: hidden hides the element, but it occupies space and affects the layout of the document.       
+Ii. display: none also hides the element but not occupy space. It will not affect the layout of the document.
+
+15.What is the float property of CSS?
+
+The float property specifies whether an element should float to the left, right, or not at all.
+
+The float property accepts three possible values:
+i. left: The element floats to the left side of its containing element, and text or inline elements will wrap around it on the right side.
+ii. right: The element floats to the right side of its containing element, and text or inline elements will wrap around it on the left side.
+iii. none (default): The element does not float, and it remains in the normal document flow.
+
+
+
+16.What is the CSS box-sizing property?
+
+The CSS box-sizing property allows us to include the padding and border in an element's total width and height.
